@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio-vipun-sanjana/static/css/main.02dc1e45.css",
+    "main.js": "/portfolio-vipun-sanjana/static/js/main.f36dcd7e.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio-vipun-sanjana/static/js/453.ace21015.chunk.js",
+    "static/media/resume.pdf": "/portfolio-vipun-sanjana/static/media/resume.3bebff34e001afeffbfd.pdf",
+    "static/media/flutter.png": "/portfolio-vipun-sanjana/static/media/flutter.b9731233c7bbd559ea6d.png",
+    "static/media/CIO_IoT_1.webp": "/portfolio-vipun-sanjana/static/media/CIO_IoT_1.dc0e4ea73e70e1b0bac8.webp",
+    "static/media/thumbnail.png": "/portfolio-vipun-sanjana/static/media/thumbnail.d169fdc5ee26bb3be8b8.png",
+    "static/media/MERN.png": "/portfolio-vipun-sanjana/static/media/MERN.d1174c634afcff130dc3.png",
+    "static/media/flut.png": "/portfolio-vipun-sanjana/static/media/flut.ce5f21c77d2fd915f429.png",
+    "static/media/mean.png": "/portfolio-vipun-sanjana/static/media/mean.175a6a07d28b35d2afad.png",
+    "static/media/devops.png": "/portfolio-vipun-sanjana/static/media/devops.74bc309444d66b42649c.png",
+    "static/media/glassesimoji.png": "/portfolio-vipun-sanjana/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/me.jpg": "/portfolio-vipun-sanjana/static/media/me.e246676d569f559f43a3.jpg",
+    "static/media/chat.jpg": "/portfolio-vipun-sanjana/static/media/chat.af7f4018404508065538.jpg",
+    "static/media/women.png": "/portfolio-vipun-sanjana/static/media/women.b411a14990bf93582581.png",
+    "static/media/spring.png": "/portfolio-vipun-sanjana/static/media/spring.caf04d169230409f220a.png",
+    "static/media/man.png": "/portfolio-vipun-sanjana/static/media/man.ba3e9327f074cac4e49e.png",
+    "static/media/mean-stack-development-company.png": "/portfolio-vipun-sanjana/static/media/mean-stack-development-company.058627887d2626008398.png",
+    "static/media/web.png": "/portfolio-vipun-sanjana/static/media/web.f9d169e80e84e333a6d1.png",
+    "static/media/appdev.png": "/portfolio-vipun-sanjana/static/media/appdev.744fbb52cbba44e96eae.png",
+    "static/media/wave.png": "/portfolio-vipun-sanjana/static/media/wave.e29bc64d6b29b4b49294.png",
+    "static/media/ok.png": "/portfolio-vipun-sanjana/static/media/ok.e06790ba656f0397cbe5.png",
+    "static/media/heartemoji.png": "/portfolio-vipun-sanjana/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/portfolio-vipun-sanjana/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/To-Do-App-With-Flutter-Step-By-Step-Guide-jpg-webp.webp": "/portfolio-vipun-sanjana/static/media/To-Do-App-With-Flutter-Step-By-Step-Guide-jpg-webp.2a27f77ae91e4e50373a.webp",
+    "static/media/medi.webp": "/portfolio-vipun-sanjana/static/media/medi.44f9938a123ec6ada267.webp",
+    "index.html": "/portfolio-vipun-sanjana/index.html",
+    "main.02dc1e45.css.map": "/portfolio-vipun-sanjana/static/css/main.02dc1e45.css.map",
+    "main.f36dcd7e.js.map": "/portfolio-vipun-sanjana/static/js/main.f36dcd7e.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio-vipun-sanjana/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02dc1e45.css",
+    "static/js/main.f36dcd7e.js"
+  ]
+}
