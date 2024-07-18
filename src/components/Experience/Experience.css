@@ -1,0 +1,78 @@
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 30vh;
+  margin-bottom: 8rem;
+  /* darkmode */
+  color: var(--black);
+}
+.achievement{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.circle {
+    width: 10rem;
+    height: 10rem;
+    background: white;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.circle::before {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, #078215 0%, #45db52 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index:-1;
+    box-shadow: var(--boxShadow);
+}
+
+.achievement span:nth-of-type(1){
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.achievement span:nth-of-type(2){
+    color: var(--greenCard);
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    .experience {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 72rem;
+        padding: 0;
+      }
+
+      .circle {
+        display: flex;
+        flex-direction: column;
+        gap: 22rem;
+        top: 5rem;
+      }
+   
+    
+    
+    
+    .experience{
+        transform: scale(0.7);
+        top: 2rem;
+    }
+}

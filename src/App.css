@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --greenCard: rgb(6, 232, 6);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+.button {
+  background: linear-gradient(180deg, #088b3e 26.71%, #2adc59 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(40, 251, 114, 0.69);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 22px;
+  padding: 15px 30px; /* Adjust padding to increase width and height */
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--greenCard);
+  color: var(--black);
+}
+
+  @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+  }
+
+  
+
+  

@@ -1,0 +1,88 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  top: 0;
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+}
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.n-list > ul :hover {
+  color: var(--greenCard);
+  cursor: pointer;
+}
+
+.n-button {
+  flex: 2;
+}
+
+
+@media screen and (max-width: 480px) {
+  .n-wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .n-left {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .n-name {
+    font-size: 1.5rem;
+  }
+
+  .n-right {
+    justify-content: center;
+  }
+
+  .n-list {
+    width: 100%;
+  }
+
+  .n-list > ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 0;
+    margin-left: -10rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .n-button {
+    margin-top: 1rem;
+    margin-right: -3rem;
+  }
+}

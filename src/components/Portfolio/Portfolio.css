@@ -1,0 +1,157 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+  color: var(--greenCard);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.portfolio .swiper {
+  overflow: visible!important;
+  margin: 2%;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+
+.portfolio img {
+  width: 22rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+
+
+.card-port {
+  background: #fff;
+  border-radius: 15px;
+  margin-right: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid var(--greenCard); 
+  align-items: center;
+  width: 500px; 
+  height: 350px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  transition: border-color 0.3s ease-in-out; 
+}
+
+
+.card-port:hover{
+  background-color: gray;
+}
+
+
+.card-img {
+  margin: 0.2rem;
+  width: 40%;
+  height: auto;
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-tech {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.card-link {
+  display: inline-block;
+  margin-top: 0.1rem;
+  padding: 0.5rem 0.5rem;
+  color: #fff;
+  background: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  margin-left: 0.2rem;
+}
+
+.card-link:hover {
+  background: #0056b3;
+}
+
+
+@media screen and (max-width: 480px) {
+  .portfolio {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    padding: 0;
+  }
+
+  .portfolio span:nth-of-type(1) {
+    font-size: 2rem;
+  }
+
+  .portfolio span:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-slider {
+    margin-top: 2rem;
+  }
+
+  .portfolio-slider .swiper-slide {
+    width: 100%;
+  }
+
+  .phone{
+    margin-top: 1rem;
+  }
+  .card-port {
+    width: 96%;
+    height: 20rem;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .card-img {
+    width: 50%;
+    max-width: 250px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-tech {
+    font-size: 0.9rem;
+  }
+
+  .card-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.3rem;
+  }
+}
